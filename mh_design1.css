@@ -1,0 +1,274 @@
+/* Giving the page some color and extras
+
+
+
+*/
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+/* HTML, Body */
+html {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    box-shadow: 4px 25px 50px 4px;
+    background-color: rgb(246, 254, 255);
+}
+
+body header h1{
+    background-color: #333;
+    color: white;
+}
+
+#indexTitle {
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    margin-left: 500px;
+}
+
+.blueText {
+    color: lightblue;
+}
+
+article {
+    font-family: 'Overlock', cursive;
+}
+
+article p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article aside#qlink {
+    background-color: #333;
+    border: none;
+    height: 600px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+article aside#qlink h4 {
+    border-bottom: dashed;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 25px;
+    color: white;
+}
+
+article aside#qlink #qlinklist li {
+    list-style-type: none;
+    text-align: center;
+    height: 10px;
+    width: 110px;
+    margin-bottom: 40px;
+    padding-bottom: 70px;
+    text-align: left;
+}
+
+article aside#qlink #qlinklist {
+}
+
+article aside#qlink #qlinklist li a{
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+}
+
+article aside#qlink #qlinklist li a:hover {
+    color: lightblue;
+}
+
+article aside#aside2 {
+    background-color: lightgray;
+    border-color: darkgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#aside1 img{
+    height: 300px;
+    float: right;
+    margin: 10px;
+    border: double;
+}
+
+#prevent {
+    text-align: center;
+}
+
+#prevent dl dd {
+    margin-bottom: 20px;
+}
+
+#prevent dl dd a {
+    text-decoration: none;
+    color: darkred;
+}
+
+#prevent dl dd a:hover {
+    color: red;
+}
+
+#border {
+    padding-bottom: 100px;
+    border-bottom: dashed;
+}
+
+/* Footer Design */
+
+footer nav ul {
+    background-color: #333;
+    height: 50px;
+}
+
+footer nav ul li {
+    list-style-type: none;
+    font-size: 14px;
+    width: 70px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Other */
+
+.urgent a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.urgent a:hover {
+    color: red;
+}
+
+.service_link a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* form */
+
+#form {
+    float: right;
+    margin-right: 10px;
+    border: solid;
+    text-align: center;
+    background-color: #1211;
+    border-color: white;
+}
+
+#form h2, input {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 210px;
+}
+
+#form h2 {
+    width: auto;
+}
+
+#lastC {
+    display: block;
+    width: 850px;
+}
+
+#call {
+    width: 500px;
+}
+
+#email {
+    width: 500px;
+}
+
+/* Site Map */
+#siteMap {
+    width: auto;
+    margin-left: 550px;
+}
+
+#siteMap ul li a {
+    text-decoration: none;
+    font-size: 40px;
+    color: darkred;
+}
+
+#siteMap ul li a:hover {
+    color: red;
+}
+
+/* Bolding Specific Words */
+#bold {
+    font-weight: bold;
+}
+
+/* Images */
+
+.picBox img{
+    width: 50%;
+    height: 200px;
+    border: 5px dashed #f7a239;
+    box-shadow: 4px 25px 75px 4px;
+}
+
+.picBox1 img{
+    float: right;
+    width: 21%;
+    height: 230px;
+    margin: 20px;
+    border: 2.5px double darkgray;
+    box-shadow: 4px 25px 75px 4px;
+}
+
+.picBox2 img{
+    float: left;
+    width: 24%;
+    height: 280px;
+    margin: 20px;
+    border: 2.5px double darkgray;
+    box-shadow: 4px 25px 75px 4px;
+}
+
+.servicePic img {
+    float: right;
+    width: 24%;
+    border: double;
+    margin-right: 30px;
+    margin-left: 20px;
+    height: 250px;
+    box-shadow: 4px 1px 80px 4px;
+}
+
+.aboutPic1 img {
+    float: left;
+    width: 24%;
+    border: double;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 250px;
+}
+
+.map {
+    margin-left: 26%;
+}
+
+.map img{
+    display: block;
+    width: 60%;
+    margin: 20px;
+    border: 2.5px double darkgray;
+    box-shadow: 4px 25px 75px 4px;
+}

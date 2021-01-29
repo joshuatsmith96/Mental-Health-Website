@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* This page is made for the Mental Health website
+
+Calendar Page Layout
+
+Author: Joshua T Smith
+
+Date: 02/14/2020
+
+*/
+
+/* Layout */
+article {
+    text-align: center;
+}  
+
+article h1 {
+   -moz-column-span: all;
+   -webkit-column-span: all;
+   column-span: all;
+}
+
+article {
+   width: 90%;
+   margin: 20px auto;
+}
+
+article h1 {
+   color: #333;
+   font-weight: normal;
+   font-size: 2em;
+   letter-spacing: 0.03em;
+   line-height: 1.2em;
+   margin-bottom: 20px;
+}
+
+article p {
+   line-height: 1.5;
+   margin-bottom: 15px;
+}
+
+article p em {
+   color: rgb(154, 64, 3);
+}
+
+
+/* Table */
+  table {   
+      border: 6px solid #333;
+      border-collapse: collapse; 
+      margin: 20px auto;
+      table-layout: fixed;   
+      width: 85%;
+   }
+   
+   th, td { 
+      border: 1px solid gray;
+      font-size: 0.85em;
+      font-weight: normal;
+      padding: 5px;
+      vertical-align: top;
+      width: 14.28%;
+      word-wrap: break-word;
+   }
+   
+   td {
+      color: rgb(11, 12, 145);     
+      background: rgba(171, 171, 171, 0.6);
+   }
+   
+   td[data-date~="March"] {
+      background-color: lightsteelblue;
+   }   
